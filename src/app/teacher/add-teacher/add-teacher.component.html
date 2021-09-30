@@ -1,0 +1,16 @@
+<div class="container col-6 my-5">
+    <h1 class="text-center text-white my-5 display-2">Add new teacher</h1>
+    <div class="card">
+        <div class="card-body">
+            <form action="">
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <input [(ngModel)]="teacher.name" name="name"type="text" class="form-control">
+                    <label for="">Course</label>
+                    <input [(ngModel)]="teacher.course" name="course" type="text" class="form-control">
+                </div>
+                <button (click)="save()" class="btn btn-primary btn-block w-25 mx-auto">Send</button>
+            </form>
+        </div>
+    </div>
+</div>

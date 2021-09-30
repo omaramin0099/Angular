@@ -1,0 +1,15 @@
+<div class="container col-6 my-5">
+    <div class="card">
+        <div class="card-body">
+            <form action="">
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <input [(ngModel)]="student.name" name="name" type="text" class="form-control">
+                    <label for="">Level</label>
+                    <input [(ngModel)]="student.level" name="level" type="text" class="form-control">
+                </div>
+                <button (click)="edit()" class="btn btn-primary btn-block w-25 mx-auto">Update</button>
+            </form>
+        </div>
+    </div>
+</div>
